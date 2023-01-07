@@ -5,7 +5,7 @@
 
 .banner-container {
     background-image: url(../images/banner/banner3.png);
-    height: 100vh;
+    height: 808px;
     width: 100%;
     display: flex;
     justify-content: right;
@@ -214,7 +214,7 @@ ul li:before {
     color: #FFFFFF;
     padding: 20px 36px;
     border: none;
-    margin-top: 28px;
+    margin-top: 16px;
     background: #005FAC;
     border-radius: 8px;
 }
