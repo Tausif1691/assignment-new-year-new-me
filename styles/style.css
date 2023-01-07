@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner-container {
+    background-image: url(../images/banner/banner3.png);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    background-repeat: no-repeat;
+}
+
+.banner-details {
+    margin-right: 230px;
+    margin-top: 216px;
+}
+
+/* banner styles */
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 494px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    padding: 21px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+main {
+    max-width: 724px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 130px;
+}
+
+/* my failure section styles */
+.previous-year-container {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.preyr-description {
+    margin-right: 322px;
+}
+
+.preyr-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.preyr-details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.preyr-description ul {
+    width: 349px;
+    height: 162px;
+}
+
+.preyr-description ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    margin-right: 10px;
+}
+/* my plans styles */
+
