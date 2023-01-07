@@ -43,10 +43,11 @@
     padding: 21px 25px;
     border-radius: 5px;
     border: none;
+    margin-top: 28px;
 }
 
 main {
-    max-width: 724px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -85,15 +86,60 @@ section {
 .preyr-description ul {
     width: 349px;
     height: 162px;
-}
-
-.preyr-description ul {
     list-style: none;
+    color: #444343;
 }
 
 ul li:before {
     content: '✓';
     margin-right: 10px;
 }
-/* my plans styles */
 
+/* my plans styles */
+.my-plans h4 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.myplans-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 86px;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.item-description {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+}
+
+/* call now section styles */
+.call-now {
+    background-image:
+    linear-gradient(to left, rgba(0, 95, 172, 0), rgb(0, 95, 172)),
+    url('../images/watch.png');
+    height: 300px;
+    border-radius: 8px;
+}
+
+.clnow-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-left: 64px;
+    padding-top: 59px;
+}
